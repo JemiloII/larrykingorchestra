@@ -1,0 +1,86 @@
+
+<!-- START HEADER -->
+<header id="home">
+	<!-- START NAV -->
+	<nav class="navbar navbar-default affix" role="navigation">
+		<div class="container-fluid">
+    		<!-- Brand and toggle get grouped for better mobile display -->
+		    <div class="navbar-header">
+		    	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+			      	<span class="sr-only">Toggle Navigation</span>
+			      	<span class="icon-bar"></span>
+			      	<span class="icon-bar"></span>
+			      	<span class="icon-bar"></span>
+		    	</button>
+		    	<a href="/#home" class="navbar-brand navlink"><img src="/img/navlogo.png" class="img-responsive"></a>
+		    </div>
+
+		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		    	<ul class="nav navbar-nav navbar-right">
+					<li><a class="navlink" href="/#about">About</a>
+					</li>
+					<li><a class="navlink" href="/#services">Services</a>
+					</li>
+					<li><a class="navlink" href="/#gallery">Gallery</a>
+					</li>
+					<li><a class="navlink" href="/#videos">Videos</a>
+					</li>
+					<li><a class="navlink" href="/#bios">Bios</a>
+					</li>
+					<li class="dropdown"><a href="/#raves-reviews" class="dropdown-toggle navlink" data-toggle="dropdown" data-url="raves">Raves &amp; Reviews</a>
+						<ul class="dropdown-menu">
+							<li><a class="navlink" href="/raves-reviews/clients">Clients</a>
+							</li>
+							<li><a class="navlink" href="/raves-reviews/lko-press">LKO Press</a>
+							</li>
+							<li><a class="navlink" href="/raves-reviews/soleil-moon-reviews">Soleil Moon</a>
+							</li>
+						</ul>
+					</li>
+					<li><a class="navlink" href="/#contact">Contact</a>
+					</li>
+					<li><a class="navlink" href="/#links">Links</a>
+					</li>
+		    	</ul>
+		    </div>
+		</div>
+	</nav>
+	<!-- END   NAV -->
+
+
+	{{#if raves}}
+		<section class="row">
+			<div id="box"></div>
+		</section>
+	{{else}}
+	<!-- START JQUERY SLIDER -->
+	<section id="slider" class="carousel slide" data-ride="carousel">
+		<ol class="carousel-indicators">
+			<li data-target="#slider" data-slide-to="0" class="active"></li>
+			<li data-target="#slider" data-slide-to="1"></li>
+			<li data-target="#slider" data-slide-to="2"></li>
+		</ol>
+
+		<div class="carousel-inner">
+			<div class="item active">
+				<img src="/img/slider1.jpg" class="img-responsive">
+			</div>
+			<div class="item">
+				<img src="/img/slider2.jpg" class="img-responsive">
+			</div>
+			<div class="item">
+				<img src="/img/slider3.jpg" class="img-responsive">
+			</div>
+		</div>
+		<a class="carousel-control left"  data-slide="prev" href="#slider">
+			<span class="glyphicon glyphicon-chevron-left"></span>
+		</a>
+		<a class="carousel-control right" data-slide="next" href="#slider">
+			<span class="glyphicon glyphicon-chevron-right"></span>
+		</a>
+		
+	</section>
+	<!-- END   JQUERY SLIDER -->
+	{{/if}}
+</header>
+<!-- END   HEADER -->

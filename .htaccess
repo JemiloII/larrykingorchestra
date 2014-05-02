@@ -1,0 +1,4 @@
+RewriteEngine On 
+RewriteRule ^(.*)$ http://127.0.0.1:3000/$1 [P,L] 
+RewriteRule ^$ http://127.0.0.1:3000/ [P,L] 
+# see 'proxy|P' (force proxy) http://httpd.apache.org/docs/2.0/mod/mod_rewrite.html

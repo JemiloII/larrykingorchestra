@@ -1,0 +1,30 @@
+{{> header}}
+<section class="raves-reviews row">
+	<div id="raves-reviews"></div>
+	<article>
+		<div class="raves-margin">
+			{{#if clients}}
+				{{> raves-reviews/clients }}
+			{{/if}}
+			{{#if lkopress}}
+				{{> raves-reviews/lko-press }}
+			{{/if}}
+			{{#if soleilmoon}}
+				{{> raves-reviews/soleil-moon-reviews }}
+			{{/if}}
+		</div>
+
+		<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 raves-menu">
+			<ul>
+				<li>Raves and Reviews
+				</li>
+				<li><i class="fa fa-angle-left"></i><a class="navlink" href="/raves-reviews/clients">Clients</a>
+				</li>
+				<li><i class="fa fa-angle-left"></i><a class="navlink" href="/raves-reviews/lko-press">LKO Press</a>
+				</li>
+				<li><i class="fa fa-angle-left"></i><a class="navlink" href="/raves-reviews/soleil-moon-reviews">Soleil Moon</a>
+				</li>
+			</ul>
+		</div>
+	</article>
+</section>

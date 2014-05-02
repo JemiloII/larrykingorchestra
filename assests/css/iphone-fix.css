@@ -1,0 +1,39 @@
+#parallax1{
+	background: url(../img/parallax1.jpg) no-repeat center center fixed;
+	width: 100%;
+	background-size: 100%;
+}
+
+#parallax2{
+	background: url(../img/parallax2.jpg) no-repeat top center fixed;
+	width: 100%;
+	background-size: 100%;
+}
+
+#parallax3{
+	background: url(../img/parallax3.jpg) no-repeat top center fixed;
+	width: 100%;
+	background-size: 100%;
+}
+
+#parallax4{
+	background: url(../img/parallax4.jpg) no-repeat top center fixed;
+	width: 100%;
+	background-size: 100%;
+
+}
+
+#parallax6{
+	background: url(../img/parallax6.jpg) no-repeat top center fixed;
+	width: 100%;
+	background-size: 100%;
+
+}
+
+#parallax7{
+	background: url(../img/parallax7.jpg) no-repeat top center fixed;
+	width: 100%;
+	height: 700px;
+	background-size: 100%;
+
+}

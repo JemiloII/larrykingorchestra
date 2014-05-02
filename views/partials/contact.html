@@ -1,0 +1,67 @@
+<!-- START BIOS -->
+<section  class="contact row">
+	<div id="contact"></div>
+	<article>
+		<header class="row">
+			<div class="table">
+				<div class="table-cell col-lg-4 col-lg-offset-1 col-md-4 col-md-offset-1 col-sm-4 col-sm-offset-1 hidden-xs">
+					<hr>
+				</div>
+
+				<div class="table-cell col-lg-2 col-md-2 col-sm-2 col-xs-12">
+					<span class="h1">Contact</span>
+				</div>
+
+				<div class="table-cell col-lg-4 col-md-4 col-sm-4 hidden-xs">
+					<hr>
+				</div>
+			</div>  
+		</header>
+		<section class="row">
+
+			<div class="col-lg-4 col-lg-offset-1 col-md-4  col-md-offset-1 col-sm-12 col-xs-12 text-center">
+
+				<h2>Contact Us</h2>
+
+				<p>Phone: (800) 633-0014</p>
+				<p>Fax: (847) 501-3830</p>
+				<p>Address: 400 Central Avenue</p>
+				<p>Suite 004</p>
+				<p>Northfield, IL 60093</p>
+				<p>Email us to request a customized proposal and check date availability.</p>
+<br>
+<br>
+<br>
+
+				<a href="https://www.facebook.com/LarryKingOrchestra" target="_blank"><img src="/img/icon/fb.png"></a>
+				<a href="https://twitter.com/LKOBand" target="_blank"><img src="/img/icon/twitter.png"></a>
+				<a href="https://soundcloud.com/larry-king-orchestra" target="_blank"><img src="/img/icon/soundcloud.png"></a>
+			</div>
+
+			<div class="col-lg-4 col-lg-offset-1 col-md-4 col-md-offset-1 col-sm-12 col-xs-12">
+
+				<form class="contact" action="/send" method="post" data-parsley-validate>
+					<label for="name">Name (required)</label>
+					<input type="name" name="name" id="name" data-parsley-minlength="5" data-parsley-trigger="change" required>
+
+					<label for="email">Your Email (required)</label>
+					<input type="email" name="email" id="email" data-parsley-minlength="10" data-parsley-trigger="change" required>
+
+					<label for="tel">Phone Number</label>
+					<input type="tel" name="tel" id="tel" pattern="^(\+\d{1,2}\s)?\(?\d{3}\)?[\s.-]\d{3}[\s.-]\d{4}$" data-parsley-trigger="change">
+
+					<label for="date">Date of Your Event</label>
+					<input type="date" name="date" id="date" data-parsley-trigger="change">
+
+					<label for="location">Venue/Location</label>
+					<input type="location" name="location" id="location" data-parsley-minlength="5" data-parsley-trigger="change">
+
+					<label for-"message">Details &amp; Comments (required)</label>
+					<textarea name="message" id="message" rows="3" data-parsley-trigger="change" required></textarea>
+
+					<input type="submit" name="submit" id="submit" value="Send" class="btn btn-default">
+				</form>
+			</div>
+		</section>
+	</article>
+</section>

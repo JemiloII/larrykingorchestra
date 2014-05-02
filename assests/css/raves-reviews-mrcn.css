@@ -1,0 +1,193 @@
+.red {
+	background-color: red;
+}
+.blue {
+	background-color: blue;
+}
+.white {
+	background-color: white;
+}
+
+/* SOLEIL REVIEW SECTION
+------------------------------*/
+.center {
+	text-align: center;
+	display: inline;
+}
+.center img {
+	margin: 0 auto;
+}
+
+.thumb > img {
+	text-align: center;
+	display: inline;
+}
+
+
+.block {
+	display: block;
+	text-align: left;
+}
+
+.raves-and-reviews-hover {
+    position: absolute;
+    top: 40px;
+    left: 55px;
+    color: rgba(7,10,64,1);
+    background-color:rgba(255,255,255,0.8);
+    width: 150px;
+    height: 150px;
+    line-height:150px;
+    border-radius:100%;
+    z-index: 99;
+    box-shadow: 0 0 0px 2px rgba(240,240,240,1), 0 0 0px 13px rgba(7,10,64,1), 0 0 5px 15px rgba(240,240,240,.5);
+	text-align: center;
+	display: inline;
+
+    opacity: 0;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.raves-and-reviews-hover:hover {
+    opacity:1;
+    color: rgba(7,10,64,1);
+}
+
+
+
+/* START RAVES AND REVIEWS SECTION
+--------------------------------------*/
+
+
+
+.raves-menu > ul {
+	list-style: none; 
+	margin-left: -30px;
+}
+
+.raves-menu > ul > li {
+	padding: 10px;
+	border-color: #363636;
+	border-style: solid;
+	border-width: 0 1px 1px 1px;
+	font-size: 16px;
+	width: 200px;
+	color:white;
+}
+.raves-menu > ul > li > a {
+	text-shadow: 1px 1px 0px rgba(0, 7, 0, 0.6);
+	color: white;
+	text-decoration: none;	
+}
+.raves-menu > ul > li > a:hover {
+	text-shadow: 1px 1px 0px rgba(0, 7, 0, 0.6);
+	color: #8F8F8F;
+	text-decoration: none;
+}
+.raves-menu > ul li:hover {
+	text-shadow: 1px 1px 0px rgba(0, 7, 0, 0.6);
+	text-decoration: none;
+	background-color: #070A40;
+	color: #8F8F8F;
+}
+.raves-menu > ul > li > i {
+	padding-right: 15px;
+}
+.raves-menu > ul li:nth-child(1) {
+	padding: 10px;
+	border-color: #363636;
+	color: white;
+	border-style: solid;
+	border-width: 0 0 1px 0;
+	background-color: black;
+	font-size: 16px;
+	width: 200px;
+}
+.raves-menu > ul li:nth-child(1):hover {
+	padding: 10px;
+	border-color: #363636;
+	color: white;
+	border-style: solid;
+	border-width: 0 0 1px 0;
+	background-color: black;
+	font-size: 16px;
+	width: 200px;
+}
+.raves-menu > ul > li:last-child {
+	border-color: #363636;
+	border-style: solid;
+	border-width: 0 1px 1px 1px;
+	font-size: 16px;
+	width: 200px;
+}
+.raves-margin {
+	margin-top: 100px;
+}
+
+/* SOLIEL MOON REVIEWS 
+---------------------------*/
+.soleil-moon {
+	height: 450px;
+}
+span.h2-alt{
+	font-size: 20px;
+}
+
+
+/* BIOGRAPHY PAGES
+-------------------------------------*/
+.biography {
+	background-color: black;
+	width: 100%;
+	margin: 0px;
+}
+.biography > div > div > h3 {
+	font-size: 22px;
+	font-weight: 500;
+}
+.biography > div > div > img {
+	border-radius: 100%;
+}
+.biography > div > div > p {
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 18px;
+}
+div.description {
+	color:white;
+}
+
+
+/* SOLVES A HORIZONTAL SCROLLING PROBLEM height: 100%;
+---------------------------------------------*/
+.row {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+
+/* CONTACT FORM STYLING
+--------------------------*/
+input.form-control {
+	border-radius:0; 
+	padding:10px; 
+	font-size:1.3em; 
+	font-family:Arial, sans-serif; 
+	background-color:#1a1a1a; 
+	border:solid 1px #ccc; 
+	margin:0 0 20px; 
+	width:300px;
+}
+textarea.form-control {
+	border-radius:0; 
+	padding:10px; 
+	font-size:1.3em; 
+	font-family:Arial, sans-serif; 
+	background-color:#1a1a1a; 
+	border:solid 1px #ccc; 
+	margin:0 0 20px; 
+	width:300px;
+}
